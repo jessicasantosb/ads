@@ -4,7 +4,7 @@ import { atividades } from "../_data/atividades";
 
 export function Atividades() {
   return (
-    <div className="border-2 p-4 mt-12 mb-8 bg-white shadow-md">
+    <div className="content-wrapper">
       <Heading>
         <NotebookPen />
         <h2>Atividades</h2>

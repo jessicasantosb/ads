@@ -4,7 +4,7 @@ import { aulasAoVivo } from "../_data/aulas-ao-vivo";
 
 export function AulasAoVivo() {
   return (
-    <div className="border-2 p-4 mt-12 mb-8 bg-white shadow-md">
+    <div className="content-wrapper">
       <Heading>
         <Wifi />
         <h2>Aulas ao vivo</h2>

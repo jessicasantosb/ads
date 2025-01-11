@@ -6,7 +6,7 @@ import { semanas } from "../_data/semanas";
 
 export function Semanas() {
   return (
-    <div className="border-2 p-4 mt-12 mb-8 bg-white shadow-md">
+    <div className="content-wrapper">
       <Heading>
         <CalendarCheck />
         <h2>Semana acadêmica</h2>

@@ -4,7 +4,7 @@ import { Heading } from "@/components/heading";
 
 export function Provas() {
   return (
-    <div className="border-2 p-4 mt-12 mb-8 bg-blue-200/10 shadow-md">
+    <div className="content-wrapper bg-blue-200/10">
       <Heading>
         <Code />
         <h2>Prova</h2>
