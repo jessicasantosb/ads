@@ -1,7 +1,9 @@
-export function Heading({ title }: { title: string }) {
+import { ReactNode } from "react";
+
+export function Heading({ children }: { children: ReactNode }) {
   return (
-    <div className="text-center pb-8">
-      <h2 className="text-xl uppercase text-gray-700">{title}</h2>
+    <div className="text-center pb-8 text-xl uppercase text-blue-700 flex items-center gap-2">
+      {children}
     </div>
   );
 }

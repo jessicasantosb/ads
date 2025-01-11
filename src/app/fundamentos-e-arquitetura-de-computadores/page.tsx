@@ -2,10 +2,10 @@ import { Title } from "@/components/title";
 import { Atividades } from "./_components/atividades";
 import { AulasAoVivo } from "./_components/aulas-ao-vivo";
 import { AulasConceituais } from "./_components/aulas-conceituais";
-import { Livro } from "./_components/livro";
 import { Notas } from "./_components/notas";
 import { Provas } from "./_components/provas";
 import { Semanas } from "./_components/semanas";
+import { Topicos } from "./_components/topicos";
 
 export default function FundamentosEArquiteturaPage() {
   return (
@@ -15,7 +15,7 @@ export default function FundamentosEArquiteturaPage() {
       <Semanas />
       <AulasAoVivo />
       <AulasConceituais />
-      <Livro />
+      <Topicos />
       <Atividades />
       <Provas />
       <Notas />
