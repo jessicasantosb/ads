@@ -14,11 +14,11 @@ export function AulasConceituais() {
         {aulasConceituais.map(({ dia, tema }, index) => (
           <div key={index}>
             <p>
-              <span className="text-gray-500">Dia: </span>
+              <span className="text-muted-foreground">Dia: </span>
               {dia}
             </p>
             <p>
-              <span className="text-gray-500">Tema: </span>
+              <span className="text-muted-foreground">Tema: </span>
               {tema}
             </p>
           </div>

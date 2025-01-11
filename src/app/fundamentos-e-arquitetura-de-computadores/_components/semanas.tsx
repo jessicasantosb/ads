@@ -15,10 +15,10 @@ export function Semanas() {
       <div className="mb-4 flex items-center justify-between flex-wrap gap-6">
         {semanas.map(({ week, from, to }) => (
           <div key={week}>
-            <p className="text-zinc-700">{week}</p>
-            <p className="text-gray-500">
-              de <span className="text-black">{from}</span> a{" "}
-              <span className="text-black">{to}</span>
+            <p className="text-zinc-600">{week}</p>
+            <p className="text-muted-foreground">
+              de <span className="text-primary">{from}</span> a{" "}
+              <span className="text-primary">{to}</span>
             </p>
           </div>
         ))}

@@ -14,11 +14,11 @@ export function AulasAoVivo() {
         {aulasAoVivo.map(({ dia, horas }, index) => (
           <div key={index}>
             <p>
-              <span className="text-gray-500">Dia: </span>
+              <span className="text-muted-foreground">Dia: </span>
               {dia}
             </p>
             <p>
-              <span className="text-gray-500">Horas: </span>
+              <span className="text-muted-foreground">Horas: </span>
               {horas}
             </p>
           </div>

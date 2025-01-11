@@ -11,7 +11,7 @@ export function Topicos() {
       </Heading>
 
       <div>
-        <h4 className="text-gray-500">Unidade 1: </h4>
+        <h4 className="text-muted-foreground">Unidade 1: </h4>
         <p className="flex gap-1">
           <NotepadText size={20} />
           Conceitos gerais
@@ -22,7 +22,7 @@ export function Topicos() {
       </div>
 
       <div className="py-4">
-        <h4 className="text-gray-500">Unidade 2: </h4>
+        <h4 className="text-muted-foreground">Unidade 2: </h4>
         <p className="flex gap-1">
           <NotepadText size={20} /> História da computação
         </p>
@@ -32,7 +32,7 @@ export function Topicos() {
       </div>
 
       <div>
-        <h4 className="text-gray-500">Unidade 3: </h4>
+        <h4 className="text-muted-foreground">Unidade 3: </h4>
         <p className="flex gap-1">
           <NotepadText size={20} />
           Sistemas de computação

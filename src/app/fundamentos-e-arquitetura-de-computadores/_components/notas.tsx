@@ -11,23 +11,23 @@ export function Notas() {
       </Heading>
 
       <p>
-        <span className="text-gray-500">ATV: </span>
+        <span className="text-muted-foreground">ATV: </span>
         (nota)
       </p>
       <p>
-        <span className="text-gray-500">MAPA: </span>
+        <span className="text-muted-foreground">MAPA: </span>
         (nota)
       </p>
       <p>
-        <span className="text-gray-500">SCG: </span>
+        <span className="text-muted-foreground">SCG: </span>
         (nota)
       </p>
       <p>
-        <span className="text-gray-500">PROVA: </span>
+        <span className="text-muted-foreground">PROVA: </span>
         (nota)
       </p>
       <strong>
-        <span className="text-gray-500">MÈDIA FINAL:</span>
+        <span className="text-muted-foreground">MÈDIA FINAL:</span>
         (nota)
       </strong>
     </div>

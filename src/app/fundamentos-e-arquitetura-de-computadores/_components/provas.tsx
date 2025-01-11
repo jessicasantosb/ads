@@ -11,15 +11,15 @@ export function Provas() {
       </Heading>
 
       <p>
-        <span className="text-gray-500">Agendamento: </span>
+        <span className="text-muted-foreground">Agendamento: </span>
         00/00
       </p>
       <strong>
-        <span className="text-gray-500">Data da prova: </span>
+        <span className="text-muted-foreground">Data da prova: </span>
         00/00
       </strong>
       <p>
-        <span className="text-gray-500">Lançamento da nota: </span>
+        <span className="text-muted-foreground">Lançamento da nota: </span>
         00/00
       </p>
     </div>

@@ -15,7 +15,7 @@ export function Atividades() {
           <div key={index}>
             <p>{nome}</p>
             <p>
-              <span className="text-gray-500">Prazo:</span>
+              <span className="text-muted-foreground">Prazo:</span>
               {prazo}
             </p>
           </div>
